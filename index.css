@@ -125,11 +125,22 @@ table {
 
 /* Code begins, here */
 
+/* FONTS
+  font-family: "Chelsea Market", cursive;
+  font-family: "Roboto Mono", monospace; */
+
 * {
   font-size: 62.5%;
 }
 
-/*Top Nav Bar */
+/* Top Nav Bar */
+
+.top-nav {
+  font-size: 1rem;
+  font-family: Roboto mono;
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .plan {
   background-color: #ff764e;
@@ -143,7 +154,16 @@ table {
   background-color: #ffcd69;
 }
 
-.top-nav {
-  flex: auto;
-  font-size: 2rem;
+/* Header */
+
+h1 {
+  font-family: Chelsea Market;
+}
+
+/* Bottom Nav Bar */
+.bottom-nav {
+  font-size: 1rem;
+  font-family: Roboto mono;
+  display: flex;
+  justify-content: space-evenly;
 }
