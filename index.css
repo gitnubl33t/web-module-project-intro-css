@@ -160,6 +160,13 @@ h1 {
   font-family: Chelsea Market;
 }
 
+/* Body */
+
+p,
+div {
+  font-family: Roboto mono;
+}
+
 /* Bottom Nav Bar */
 .bottom-nav {
   font-size: 1rem;
