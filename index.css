@@ -124,3 +124,26 @@ table {
 }
 
 /* Code begins, here */
+
+* {
+  font-size: 62.5%;
+}
+
+/*Top Nav Bar */
+
+.plan {
+  background-color: #ff764e;
+}
+
+.learn {
+  background-color: #5ed3eb;
+}
+
+.get {
+  background-color: #ffcd69;
+}
+
+.top-nav {
+  flex: auto;
+  font-size: 2rem;
+}
