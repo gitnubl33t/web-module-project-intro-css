@@ -167,6 +167,16 @@ div {
   font-family: Roboto mono;
 }
 
+.main-text {
+  background-color: #ddb9a3;
+}
+
+/* Footer */
+
+footer {
+  background-color: #f9e7dc;
+}
+
 /* Bottom Nav Bar */
 .bottom-nav {
   font-size: 1rem;
