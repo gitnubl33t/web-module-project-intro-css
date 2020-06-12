@@ -1,0 +1,287 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Code begins, here */
+
+/* FONTS
+  font-family: "Chelsea Market", cursive;
+  font-family: "Roboto Mono", monospace; */
+
+.content {
+  height: 100%;
+  width: 40%;
+  margin: auto;
+}
+
+* {
+  font-size: 62.5%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Top Nav Bar */
+
+.plan, .get, .learn {
+  width: 7.5rem;
+  text-align: center;
+  font-size: .8rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: .5rem;
+}
+
+.top-nav {
+  font-size: 1rem;
+  font-family: Roboto mono;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+}
+
+.plan {
+  background-color: #ff764e;
+  padding top: 3rem;
+}
+
+.learn {
+  background-color: #5ed3eb;
+  padding top: 3rem;
+}
+
+.get {
+  background-color: #ffcd69;
+}
+
+/* Header */
+
+header {
+  display: inline-flex;
+  padding-bottom: 2rem;
+}
+
+h1 {
+  font-family: Chelsea Market;
+  text-align: right;
+  font-size: 2.2rem;
+  padding-top: 2.5rem;
+  padding-bottom: 1.5rem;
+  margin-left: 1.7rem;
+}
+
+img.header-image {
+  border-radius: 50%;
+  margin-left: 5.5rem;
+  margin-right: 2rem;
+  /* object-fit: cover; */
+}
+
+
+p.p1 {
+  padding-bottom: 1rem;
+}
+
+p.p1, p.p2 {
+  text-align: center;
+  font-size: .9rem;
+  width: 19rem;
+  padding-left: 3.5rem;
+}
+
+
+
+/* Body */
+
+p,
+div {
+  font-family: Roboto mono;
+}
+
+.break {
+  height: 1rem;
+}
+
+.main-text {
+  background-color: #ddb9a3;
+  color: white; 
+  font-size: .9rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  line-height: 1.5em;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.fire-p, .rv-p {
+  text-align: center;
+  font-size: .8rem;
+  width: 12rem;
+  margin-left: 17.5rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.fire-image, .rv-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Footer */
+
+footer {
+  background-color: #f9e7dc;
+}
+
+img.footer-image {
+  height: 12rem;
+  width: 100%;
+}
+
+.footer-image {
+  object-fit: cover;
+  
+}
+
+
+/* Bottom Nav Bar */
+.bottom-nav {
+  font-size: 1rem;
+  font-family: Roboto mono;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
