@@ -130,8 +130,8 @@ table {
   font-family: "Roboto Mono", monospace; */
 
 .content {
-  max-width: 50%;
-  height: auto;
+  height: 100%;
+  width: 50%;
 }
 
 * {
@@ -179,21 +179,40 @@ a {
 
 /* Header */
 
+header {
+  display: inline-flex;
+  padding-bottom: 2rem;
+}
+
 h1 {
   font-family: Chelsea Market;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   padding-top: 2.5rem;
   padding-bottom: 1.5rem;
   padding-right: 2rem;
-  float: right;
+  padding-left: 1.7rem;
 }
 
 img.header-image {
   border-radius: 50%;
 }
 
-header {
+div.header-copy {
+  padding-left: 1rem;
 }
+
+p.p1 {
+  padding-bottom: 1rem;
+}
+
+p.p1, p.p2 {
+  text-align: center;
+  font-size: .9rem;
+  width: 19rem;
+  padding-left: 3.5rem;
+}
+
+
 
 /* Body */
 
@@ -213,8 +232,10 @@ footer {
 }
 
 img.footer-image {
+ 
   object-fit: cover;
 }
+
 
 /* Bottom Nav Bar */
 .bottom-nav {
