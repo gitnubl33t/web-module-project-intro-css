@@ -130,10 +130,19 @@ table {
   font-family: "Roboto Mono", monospace; */
 
 .content {
+  width: 50%;
+  height: auto;
+  /* justify-content: center;
+  ^ why doesn't this code work??
+  */
 }
 
 * {
   font-size: 62.5%;
+}
+
+a {
+  color: white;
 }
 
 /* Top Nav Bar */
@@ -141,6 +150,7 @@ table {
 .top-nav {
   font-size: 1rem;
   font-family: Roboto mono;
+  color: white;
   display: flex;
   justify-content: space-evenly;
 }
@@ -161,7 +171,8 @@ table {
 
 h1 {
   font-family: Chelsea Market;
-  font-size: 3rem;
+  font-size: 2.2rem;
+  padding-bottom: 1.5rem;
 }
 
 img.header-image {
