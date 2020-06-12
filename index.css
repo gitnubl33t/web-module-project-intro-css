@@ -236,6 +236,21 @@ div {
   text-align: center;
 }
 
+.fire-p, .rv-p {
+  text-align: center;
+  width: 19rem;
+  padding-left: 15.5rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+
+.fire-image, .rv-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* Footer */
 
 footer {
