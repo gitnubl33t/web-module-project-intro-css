@@ -131,7 +131,7 @@ table {
 
 .content {
   height: 100%;
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 
@@ -141,6 +141,7 @@ table {
 
 a {
   color: white;
+  text-decoration: none;
 }
 
 /* Top Nav Bar */
@@ -224,6 +225,15 @@ div {
 
 .main-text {
   background-color: #ddb9a3;
+  color: white; 
+  font-size: .8rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  text-align: center;
 }
 
 /* Footer */
