@@ -130,11 +130,8 @@ table {
   font-family: "Roboto Mono", monospace; */
 
 .content {
-  width: 50%;
+  max-width: 50%;
   height: auto;
-  /* justify-content: center;
-  ^ why doesn't this code work??
-  */
 }
 
 * {
@@ -147,20 +144,33 @@ a {
 
 /* Top Nav Bar */
 
+.plan, .get, .learn {
+  width: 7.5rem;
+  text-align: center;
+  font-size: .8rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: .5rem;
+}
+
 .top-nav {
   font-size: 1rem;
   font-family: Roboto mono;
   color: white;
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
 }
 
 .plan {
   background-color: #ff764e;
+  padding top: 3rem;
 }
 
 .learn {
   background-color: #5ed3eb;
+  padding top: 3rem;
 }
 
 .get {
@@ -171,12 +181,18 @@ a {
 
 h1 {
   font-family: Chelsea Market;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
+  padding-top: 2.5rem;
   padding-bottom: 1.5rem;
+  padding-right: 2rem;
+  float: right;
 }
 
 img.header-image {
   border-radius: 50%;
+}
+
+header {
 }
 
 /* Body */
@@ -194,6 +210,10 @@ div {
 
 footer {
   background-color: #f9e7dc;
+}
+
+img.footer-image {
+  object-fit: cover;
 }
 
 /* Bottom Nav Bar */
